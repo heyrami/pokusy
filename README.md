@@ -1,18 +1,4 @@
 
-
-The doas utility is a program originally written for OpenBSD which allows a user to run a command as though they were another user. Typically doas is used to allow non-privileged users to run commands as though they were the root user. The doas program acts as an alternative to sudo, which is a popular method in the Linux community for granting admin access to specific users.
-
-The doas program offers two benefits over sudo: its configuration file has a simple syntax and it is smaller, requiring less effort to audit the code. This makes it harder for both admins and coders to make mistakes that potentially open security holes in the system.
-
-This port of doas has been made to work on FreeBSD 11.x and newer, most distributions of Linux, NetBSD 8.x and newer, and most illumos distributions (tested on OmniOS and SmartOS). It also works on macOS Catalina.
-
-Installing doas is accomplished in three steps:
-
-0. Optionally install the package/port for your operating system, OR
-1. Installing build tools.
-2. Compiling and installing the doas utility.
-3. Creating a configuration file for doas.
-
 ## Installation via packages/repositories:
 
 [For Arch Linux users (and Arch-based distributions) there is a package available in the AUR:](https://aur.archlinux.org/packages/doas/)
