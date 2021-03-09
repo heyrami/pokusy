@@ -1,5 +1,5 @@
 # doas
-A port of OpenBSD's doas which runs on FreeBSD, Linux, NetBSD, illumos and macOS.
+A port of OpenBSD's doas which runs on FreeBSD, Linux, NetBSD, illumos and
 
 The doas utility is a program originally written for OpenBSD which allows a user to run a command as though they were another user. Typically doas is used to allow non-privileged users to run commands as though they were the root user. The doas program acts as an alternative to sudo, which is a popular method in the Linux community for granting admin access to specific users.
 
